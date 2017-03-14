@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LDD-corso-app
+  host: LDD-corso
+  disk_quota: 1024M
+  services:
+  - LDD-corso-app-cloudantNoSQLDB
+  - Language Translator-e4
+  - Conversation-q4
